@@ -1,0 +1,54 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.05.04.23.46.57;	author victor.oliveira;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/*
+* Universidade Federal do Rio de Janeiro
+* Escola Politecnica
+* Departamento de Eletronica e de Computacao
+* EEL270 - Computacao II - Turma 2017/1
+* Prof. Marcelo Luiz Drumond Lanza
+* Autor: Victor Raposo Ravaglia de Oliveira
+*
+* $Author:$
+* $Date:$
+* $Log: aula0801.h,v $
+* 
+*/
+
+#ifndef _AULA08_H_
+#define _AULA08_H_ "@@(#)aula0804.h $Revision$"
+
+#define TAMANHO_PIS 11
+#define DIGITO_IRREGULAR '\0'
+
+typedef enum{falso, verdadeiro} boolean;
+
+char
+GerarDigitoVerificadorPisPasep (char *);
+
+boolean
+ValidarPisPasep (char *); 
+
+#endif
+
+/*$RCSfile*/
+@

@@ -1,0 +1,82 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.03.18.19.27.33;	author victor.oliveira;	state Exp;
+branches;
+next	;
+
+
+desc
+@Adicionadas informacoes sobre
+os modificadores de sinal
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* 
+* Universidade Federal do Rio de Janeiro
+* Escola Politecnica
+* Departamento de Eletronica e de Computacao
+* EEL270 - Computacao II - Turma 2017/1
+* Prof. Marcelo Luiz Drumond Lanza
+* Autor: Victor Raposo Ravaglia de Oliveira
+*
+* $Author$
+* $Date$
+* $Log$
+*/
+
+#include <stdio.h>
+#define	OK	0
+
+/*O codigo tem como objetivo exibir os 5 tipos principais,
+ * os dois modificadores de sinal
+ * e seus respectivos tamanhos em bytes.
+ */
+
+int
+main(int argc, char *argv[])
+{
+	printf("\nTipos Basicos\n\n");
+	
+	printf("char:\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(char), sizeof(char) != 1 ? "bytes":"byte");
+	
+	printf("int\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(int), sizeof(int) != 1 ? "bytes":"byte");
+	
+	printf("double:\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(double), sizeof(double) != 1 ? "bytes":"byte");
+	
+	printf("float:\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(float), sizeof(float) != 1 ? "bytes":"byte");
+	
+	printf("void:\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(void), sizeof(void) != 1 ? "bytes":"byte");
+	
+	printf("\n");
+	
+	printf("\nModificadores de Sinal\n\n");
+
+	printf("signed:\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(signed), sizeof(signed) != 1 ? "bytes":"byte");
+
+	printf("unsigned:\n");
+	printf("\t\t%lu %s\n",(unsigned long) sizeof(unsigned), sizeof(unsigned) != 1 ? "bytes":"byte");
+	
+	printf("\n");
+	
+	return OK;
+}	
+
+/* $RCSfile$ */
+@

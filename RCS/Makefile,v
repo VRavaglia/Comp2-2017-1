@@ -1,0 +1,1196 @@
+head	1.34;
+access;
+symbols;
+locks
+	vravaglia:1.34; strict;
+comment	@# @;
+
+
+1.34
+date	2017.05.13.14.10.11;	author victor.oliveira;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2017.05.12.00.44.20;	author victor.oliveira;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2017.05.05.00.52.36;	author victor.oliveira;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2017.05.05.00.37.53;	author victor.oliveira;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2017.05.05.00.03.46;	author victor.oliveira;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2017.05.04.23.46.57;	author victor.oliveira;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2017.05.04.22.47.59;	author victor.oliveira;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2017.05.04.20.16.08;	author victor.oliveira;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2017.05.04.19.25.13;	author victor.oliveira;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2017.05.04.18.37.59;	author victor.oliveira;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2017.05.04.15.51.17;	author victor.oliveira;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2017.04.21.02.26.33;	author mncd-;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2017.04.13.22.22.01;	author victor.oliveira;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2017.04.13.21.37.49;	author victor.oliveira;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2017.04.13.21.33.41;	author victor.oliveira;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2017.04.13.21.27.40;	author victor.oliveira;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2017.04.13.21.09.12;	author victor.oliveira;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2017.04.06.23.00.56;	author victor.oliveira;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2017.04.06.22.57.49;	author victor.oliveira;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2017.04.06.22.52.58;	author victor.oliveira;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2017.04.06.17.53.23;	author victor.oliveira;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2017.03.30.16.30.08;	author victor.oliveira;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2017.03.30.16.25.07;	author victor.oliveira;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2017.03.30.16.09.21;	author victor.oliveira;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2017.03.30.15.24.22;	author victor.oliveira;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.03.28.20.40.15;	author victor.oliveira;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.03.27.16.50.54;	author victor.oliveira;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.03.27.16.48.09;	author victor.oliveira;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.03.27.16.44.09;	author victor.oliveira;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.03.18.22.49.32;	author victor.oliveira;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.03.18.21.37.00;	author victor.oliveira;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.03.18.21.19.04;	author victor.oliveira;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.03.18.19.28.12;	author victor.oliveira;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.03.18.19.04.21;	author victor.oliveira;	state Exp;
+branches;
+next	;
+
+
+desc
+@Makefile inicial
+@
+
+
+1.34
+log
+@Adicionado suporte para aula0903
+@
+text
+@ 
+# Universidade Federal do Rio de Janeiro
+# Escola Politecnica
+# Departamento de Eletronica e de Computacao
+# EEL270 - Computacao II - Turma 2017/1
+# Prof. Marcelo Luiz Drumond Lanza
+# Autor: Victor Raposo Ravaglia de Oliveira
+	
+# $Author: victor.oliveira $
+# $Date: 2017/05/12 00:44:20 $
+# $Log: Makefile,v $
+# Revision 1.33  2017/05/12 00:44:20  victor.oliveira
+# Adicionado suporte para aula0902
+#
+# Revision 1.32  2017/05/05 00:52:36  victor.oliveira
+# Adicionado suporte para aula0806b
+#
+# Revision 1.31  2017/05/05 00:37:53  victor.oliveira
+# Adicionado suporte para aula0806a
+#
+# Revision 1.30  2017/05/05 00:03:46  victor.oliveira
+# Adicionado suporte para aula0805b
+#
+# Revision 1.29  2017/05/04 23:46:57  victor.oliveira
+# Adicionado suporte para aula0805a
+#
+# Revision 1.28  2017/05/04 22:47:59  victor.oliveira
+# Adicionado suporte para aula0803b
+#
+# Revision 1.27  2017/05/04 20:16:08  victor.oliveira
+# Adicionado suporte para aula0803a
+#
+# Revision 1.26  2017/05/04 19:25:13  victor.oliveira
+# Adicionado suporte para aula0802b
+#
+# Revision 1.25  2017/05/04 18:37:59  victor.oliveira
+# Adicionado suporte para aula0802a
+#
+# Revision 1.24  2017/05/04 15:51:17  victor.oliveira
+# Adicionado suporte para aula 07
+#
+# Revision 1.23  2017/04/21 02:26:33  mncd-
+# Adicionado suporte para aula06.
+#
+# Revision 1.22  2017/04/13 22:22:01  victor.oliveira
+# Adicionado suporte a aula0502e
+#
+# Revision 1.21  2017/04/13 21:37:49  victor.oliveira
+# Adicionado suporte para aula0502d
+#
+# Revision 1.20  2017/04/13 21:33:41  victor.oliveira
+# Adicionado suporte para aula0501c.c
+#
+# Revision 1.19  2017/04/13 21:27:40  victor.oliveira
+# Adicionado suporte para aula0501b.c
+#
+# Revision 1.18  2017/04/13 21:09:12  victor.oliveira
+# Adicionado suporte para aula0501a
+# Adicionado suporte para libmatematica.a
+# Criado MACRO LIBS
+#
+# Revision 1.17  2017/04/06 23:00:56  victor.oliveira
+# Adicionado suporte para aula0402d
+#
+# Revision 1.16  2017/04/06 22:57:49  victor.oliveira
+# Adicionado suporte para aula0402c
+#
+# Revision 1.15  2017/04/06 22:52:58  victor.oliveira
+# Adicionado suporte para aula0402b
+#
+# Revision 1.14  2017/04/06 17:53:23  victor.oliveira
+# Adicinado suporte para aula0402
+#
+# Revision 1.13  2017/03/30 16:30:08  victor.oliveira
+# Adicionado suporte para aula0302d.
+#
+# Revision 1.12  2017/03/30 16:25:07  victor.oliveira
+# Adicionado suporte para aula0302c.
+#
+# Revision 1.11  2017/03/30 16:09:21  victor.oliveira
+# Adicionado suporte a aula0302b.
+#
+# Revision 1.10  2017/03/30 15:24:22  victor.oliveira
+# Adicionado suporte a aula0302a.
+#
+# Revision 1.9  2017/03/28 20:40:15  victor.oliveira
+# Adicionado suporte para aula0202d
+# corrigido erro nos OBJS.
+#
+# Revision 1.8  2017/03/27 16:50:54  victor.oliveira
+# Adicionado suporte para aula0202c.
+#
+# Revision 1.7  2017/03/27 16:48:09  victor.oliveira
+# Adicionado suporte para aula0202b.
+#
+# Revision 1.6  2017/03/27 16:44:09  victor.oliveira
+# Adicionad suporte para Aula02
+# e aula0202a.
+#
+# Revision 1.5  2017/03/18 22:49:32  victor.oliveira
+# Adicionados a macro e o rotulo referentes
+# ao arquivo aula0105.c
+#
+# Revision 1.4  2017/03/18 21:37:00  victor.oliveira
+# Adicionados o macro e rotulo referentes ao
+# arquivo aula0104.c
+#
+# Revision 1.3  2017/03/18 21:19:04  victor.oliveira
+# Adicionado o macro referente ao arquivo aula0103.c
+#
+#
+# Revision 1.2  2017/03/18 19:28:12  victor.oliveira
+# Adicionado o rotulo referente ao arquivo
+# aula0102.c
+# Corrigido o rotulo aula01
+#
+# Revision 1.1  2017/03/18 19:04:21  victor.oliveira
+# Initial revision
+# 
+
+
+CC = gcc
+LD = gcc
+
+CFLAGS = -ansi -Wall -std=c99
+LFLAGS = -ansi -Wall
+
+AULA0101OBJS = aula0101.o
+AULA0102OBJS = aula0102.o
+AULA0103OBJS = aula0103.o
+AULA0104OBJS = aula0104.o
+AULA0105OBJS = aula0105.o
+
+AULA0202AOBJS = aula0202.o aula0201a.o
+AULA0202BOBJS = aula0202.o aula0201b.o
+AULA0202COBJS = aula0202.o aula0201c.o
+AULA0202DOBJS = aula0202.o aula0201d.o
+
+AULA0302AOBJS = aula0302.o aula0301a.o
+AULA0302BOBJS = aula0302.o aula0301b.o
+AULA0302COBJS = aula0302.o aula0301c.o
+AULA0302DOBJS = aula0302.o aula0301d.o
+
+AULA0402AOBJS = aula0402.o aula0401a.o
+AULA0402BOBJS = aula0402.o aula0401b.o
+AULA0402COBJS = aula0402.o aula0401c.o
+AULA0402DOBJS = aula0402.o aula0401d.o
+
+AULA0502AOBJS = aula0502.o aula0501a.o
+AULA0502BOBJS = aula0502.o aula0501b.o
+AULA0502COBJS = aula0502.o aula0501c.o
+AULA0502DOBJS = aula0502.o aula0501d.o
+AULA0502EOBJS = aula0502.o aula0501e.o
+
+AULA0602OBJS = aula0602.o aula0601.o
+
+AULA0702OBJS = aula0702.o aula0701.o
+
+AULA0802AOBJS = aula0801.o aula0802a.o
+AULA0802BOBJS = aula0801.o aula0802b.o
+AULA0803AOBJS = aula0801.o aula0803a.o
+AULA0803BOBJS = aula0801.o aula0803b.o
+AULA0805AOBJS = aula0804.o aula0805a.o
+AULA0805BOBJS = aula0804.o aula0805b.o
+AULA0806AOBJS = aula0804.o aula0806a.o
+AULA0806BOBJS = aula0804.o aula0806b.o
+
+AULA0902OBJS = aula0901.o aula0902.o
+AULA0903OBJS = aula0901.o aula0903.o
+
+LIBMATEMATICAOBJS = aula0401a.o
+
+AULA01 = aula0101\
+	aula0102\
+	aula0103\
+	aula0104\
+	aula0105
+
+AULA02 = aula0202a\
+	aula0202b\
+	aula0202c\
+	aula0202d
+
+AULA03 = aula0302a\
+		 aula0302b\
+		 aula0302c\
+		 aula0302d
+
+AULA04 = aula0402a\
+		 aula0402b\
+		 aula0402c\
+		 aula0402d
+
+AULA05 = aula0502a\
+		 aula0502b\
+		 aula0502c\
+		 aula0502d\
+		 aula0502e
+
+AULA06 = aula0602
+
+AULA07 = aula0702
+
+AULA08 = aula0802a\
+		 aula0802b\
+		 aula0803a\
+		 aula0803b\
+		 aula0805a\
+		 aula0805b\
+		 aula0806a\
+		 aula0806b
+
+AULA09 = aula0902\
+	aula0903
+
+
+EXECS = $(AULA01)\
+	$(AULA02)\
+	$(AULA03)\
+	$(AULA04)\
+	$(AULA05)\
+	$(AULA06)\
+	$(AULA07)\
+	$(AULA08)\
+	$(AULA09)
+	
+
+LIBMATEMATICA = libmatematica.a
+
+LIBS = $(LIBMATEMATICA)
+
+# Regra Implicita
+
+
+.c.o:
+	$(CC) $(CFLAGS) -c $<
+
+all: $(EXECS) $(LIBS)
+
+aula01: $(AULA01)
+
+aula0101: $(AULA0101OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0101OBJS)	
+
+aula0102: $(AULA0102OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0102OBJS)	
+
+aula0103: $(AULA0103OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0103OBJS)	
+
+aula0104: $(AULA0104OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0104OBJS)	
+
+aula0105: $(AULA0105OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0105OBJS)
+
+
+aula02: $(AULA02)
+
+aula0202a: $(AULA0202AOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0202AOBJS)
+
+aula0202b: $(AULA0202BOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0202BOBJS)
+
+aula0202c: $(AULA0202COBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0202COBJS)						
+	
+aula0202d: $(AULA0202DOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0202DOBJS)						
+
+
+aula03: $(AULA03)
+
+aula0302a: $(AULA0302AOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0302AOBJS)
+
+aula0302b: $(AULA0302BOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0302BOBJS)
+
+aula0302c: $(AULA0302COBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0302COBJS)
+
+aula0302d: $(AULA0302DOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0302DOBJS)
+
+
+aula04: $(AULA04)
+
+aula0402a: $(AULA0402AOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0402AOBJS)
+
+aula0402b: $(AULA0402BOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0402BOBJS)
+
+aula0402c: $(AULA0402COBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0402COBJS)
+
+aula0402d: $(AULA0402DOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0402DOBJS)
+
+
+aula05: $(AULA05)
+
+aula0502a: $(LIBMATEMATICA) $(AULA0502AOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0502AOBJS) $(LIBMATEMATICA)
+
+aula0502b: $(LIBMATEMATICA) $(AULA0502BOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0502BOBJS) $(LIBMATEMATICA)
+
+aula0502c: $(LIBMATEMATICA) $(AULA0502COBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0502COBJS) $(LIBMATEMATICA)
+
+aula0502d: $(LIBMATEMATICA) $(AULA0502DOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0502DOBJS) $(LIBMATEMATICA)		
+
+aula0502e: $(AULA0502EOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0502EOBJS) -lm
+
+
+aula06: $(AULA06)
+
+aula0602: $(AULA0602OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0602OBJS)
+
+
+aula07: $(AULA07)
+
+aula0702: $(AULA0702OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0702OBJS)
+
+
+aula08: $(AULA08)
+
+aula0802a: $(AULA0802AOBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0802AOBJS)
+	
+aula0802b: $(AULA0802BOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0802BOBJS)
+
+aula0803a: $(AULA0803AOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0803AOBJS)
+
+aula0803b: $(AULA0803BOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0803BOBJS)
+
+aula0805a: $(AULA0805AOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0805AOBJS)
+
+aula0805b: $(AULA0805BOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0805BOBJS)
+
+aula0806a: $(AULA0806AOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0806AOBJS)
+
+aula0806b: $(AULA0806BOBJS)	
+	$(LD) $(LFLAGS) -o $@@ $(AULA0806BOBJS)
+
+
+aula09: $(AULA09)
+
+aula0902: $(AULA0902OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0902OBJS)
+
+aula0903: $(AULA0903OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0903OBJS)	
+
+
+libmatematica.a: $(LIBMATEMATICAOBJS)
+	ar -r $@@ $(LIBMATEMATICAOBJS)
+
+clean:
+	rm -f *.o $(EXECS) $(LIBS)
+
+#$RCSfile: Makefile,v $
+@
+
+
+1.33
+log
+@Adicionado suporte para aula0902
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/05 00:52:36 $
+d12 3
+d169 1
+d213 3
+a215 1
+AULA09 = aula0902
+d364 3
+@
+
+
+1.32
+log
+@Adicionado suporte para aula0806b
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/05 00:37:53 $
+d12 3
+d165 2
+d209 2
+d218 2
+a219 1
+	$(AULA08)
+d352 6
+@
+
+
+1.31
+log
+@Adicionado suporte para aula0806a
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/05 00:03:46 $
+d12 3
+d160 1
+d201 2
+a202 1
+		 aula0806a
+d341 3
+@
+
+
+1.30
+log
+@Adicionado suporte para aula0805b
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/04 23:46:57 $
+d12 3
+d156 1
+d196 2
+a197 1
+		 aula0805b
+d333 3
+@
+
+
+1.29
+log
+@Adicionado suporte para aula0805a
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/04 22:47:59 $
+d12 3
+d152 1
+d191 2
+a192 1
+		 aula0805a
+d325 3
+@
+
+
+1.28
+log
+@Adicionado suporte para aula0803b
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/04 20:16:08 $
+d12 3
+d148 1
+d186 2
+a187 1
+		 aula0803b
+d317 3
+@
+
+
+1.27
+log
+@Adicionado suporte para aula0803a
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/04 19:25:13 $
+d12 3
+d144 1
+d181 2
+a182 1
+		 aula0803a
+d309 3
+@
+
+
+1.26
+log
+@Adicionado suporte para aula0802b
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/04 18:37:59 $
+d12 3
+d140 1
+d176 2
+a177 1
+		 aula0802b
+d301 3
+@
+
+
+1.25
+log
+@Adicionado suporte para aula0802a
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/05/04 15:51:17 $
+d12 3
+d136 1
+d171 2
+a172 1
+AULA08 = aula0802a
+d293 3
+@
+
+
+1.24
+log
+@Adicionado suporte para aula 07
+@
+text
+@d9 2
+a10 2
+# $Author: mncd- $
+# $Date: 2017/04/21 02:26:33 $
+d12 3
+d132 2
+d167 2
+d175 3
+a177 1
+	$(AULA07)
+d282 7
+@
+
+
+1.23
+log
+@Adicionado suporte para aula06.
+@
+text
+@d9 2
+a10 2
+# $Author: victor.oliveira $
+# $Date: 2017/04/13 22:22:01 $
+d12 3
+d95 1
+a95 1
+CFLAGS = -ansi -Wall
+d127 2
+d160 2
+d167 2
+a168 1
+	$(AULA06)
+d268 5
+@
+
+
+1.22
+log
+@Adicionado suporte a aula0502e
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/13 21:37:49 $
+d12 3
+d116 4
+a119 4
+AULA0502AOBJS = aula0502.c aula0501a.c
+AULA0502BOBJS = aula0502.c aula0501b.c
+AULA0502COBJS = aula0502.c aula0501c.c
+AULA0502DOBJS = aula0502.c aula0501d.c
+d122 2
+d153 2
+d159 2
+a160 1
+	$(AULA05)
+d239 1
+a239 1
+aula0502a: $(LIBMATEMATICA) $(AULA0502A0BJS)
+d242 1
+a242 1
+aula0502b: $(LIBMATEMATICA) $(AULA0502B0BJS)
+d245 1
+a245 1
+aula0502c: $(LIBMATEMATICA) $(AULA0502C0BJS)
+d248 2
+a249 2
+aula0502d: $(LIBMATEMATICA) $(AULA0502D0BJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0502DOBJS) $(LIBMATEMATICA)
+d253 6
+@
+
+
+1.21
+log
+@Adicionado suporte para aula0502d
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/13 21:33:41 $
+d12 3
+d117 1
+d145 2
+a146 1
+		 aula0502d
+d160 1
+d242 3
+@
+
+
+1.20
+log
+@Adicionado suporte para aula0501c.c
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/13 21:27:40 $
+d12 3
+d113 1
+d140 2
+a141 1
+		 aula0502c
+d233 3
+@
+
+
+1.19
+log
+@Adicionado suporte para aula0501b.c
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/13 21:09:12 $
+d12 3
+d109 1
+d135 2
+a136 1
+		 aula0502b
+d225 3
+@
+
+
+1.18
+log
+@Adicionado suporte para aula0501a
+Adicionado suporte para libmatematica.a
+Criado MACRO LIBS
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/06 23:00:56 $
+d12 5
+d105 1
+d130 2
+a131 1
+AULA05 = aula0502a
+d217 3
+@
+
+
+1.17
+log
+@Adicionado suporte para aula0402d
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/06 22:57:49 $
+d12 3
+d99 4
+d124 2
+d129 6
+a134 1
+	$(AULA04)
+d141 1
+a141 1
+all: $(EXECS)
+d206 9
+d216 1
+a216 1
+	rm -f *.o $(EXECS)
+@
+
+
+1.16
+log
+@Adicionado suporte para aula0402c
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/06 22:52:58 $
+d12 3
+d94 1
+d114 2
+a115 1
+		 aula0402c
+d176 1
+d187 4
+@
+
+
+1.15
+log
+@Adicionado suporte para aula0402b
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/04/06 17:53:23 $
+d12 3
+d90 1
+d109 2
+a110 1
+		 aula0402b
+d178 3
+@
+
+
+1.14
+log
+@Adicinado suporte para aula0402
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/30 16:30:08 $
+d12 3
+d86 1
+d104 2
+a105 1
+AULA04 = aula0402a
+d170 3
+@
+
+
+1.13
+log
+@Adicionado suporte para aula0302d.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/30 16:25:07 $
+d12 3
+d82 1
+d100 2
+d104 2
+a105 1
+	$(AULA03)
+d160 5
+@
+
+
+1.12
+log
+@Adicionado suporte para aula0302c.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/30 16:09:21 $
+d12 3
+d77 1
+d93 2
+a94 1
+		 aula0302c
+d150 3
+@
+
+
+1.11
+log
+@Adicionado suporte a aula0302b.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/30 15:24:22 $
+d12 3
+d73 1
+d88 2
+a89 1
+		 aula0302b
+d143 2
+@
+
+
+1.10
+log
+@Adicionado suporte a aula0302a.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/28 20:40:15 $
+d12 3
+d69 1
+d83 2
+a84 1
+AULA03 = aula0302a
+d134 3
+@
+
+
+1.9
+log
+@Adicionado suporte para aula0202d
+corrigido erro nos OBJS.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/27 16:50:54 $
+d12 4
+d65 3
+d79 2
+d82 2
+a83 1
+	$(AULA02)
+d109 1
+d123 7
+@
+
+
+1.8
+log
+@Adicionado suporte para aula0202c.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/27 16:48:09 $
+d12 3
+d56 4
+a59 3
+AULA0202AOBJS = aula0202.o aula0201a.c
+AULA0202BOBJS = aula0202.o aula0201b.c
+AULA0202DOBJS = aula0202.o aula0201c.c
+d69 2
+a70 1
+	aula0202c	
+d110 3
+@
+
+
+1.7
+log
+@Adicionado suporte para aula0202b.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/27 16:44:09 $
+d12 3
+d55 1
+d64 2
+a65 1
+	aula0202b	
+d100 4
+a103 1
+	$(LD) $(LFLAGS) -o $@@ $(AULA0202BOBJS)				
+@
+
+
+1.6
+log
+@Adicionad suporte para Aula02
+e aula0202a.
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/18 22:49:32 $
+d12 4
+d51 1
+d59 2
+a60 1
+AULA02 = aula0202a	
+d92 4
+a95 1
+	$(LD) $(LFLAGS) -o $@@ $(AULA0202AOBJS)		
+@
+
+
+1.5
+log
+@Adicionados a macro e o rotulo referentes
+ao arquivo aula0105.c
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/18 21:37:00 $
+d12 4
+d31 1
+a31 1
+#
+d46 2
+d54 4
+a57 1
+EXECS = $(AULA01)
+d81 6
+a86 1
+	$(LD) $(LFLAGS) -o $@@ $(AULA0105OBJS)	
+@
+
+
+1.4
+log
+@Adicionados o macro e rotulo referentes ao
+arquivo aula0104.c
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/18 21:19:04 $
+d12 4
+d40 1
+d45 2
+a46 1
+	aula0104
+d70 3
+@
+
+
+1.3
+log
+@Adicionado o macro referente ao arquivo aula0103.c
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/18 19:28:12 $
+d12 3
+d35 1
+d39 2
+a40 1
+	aula0103
+d61 3
+@
+
+
+1.2
+log
+@Adicionado o rotulo referente ao arquivo
+aula0102.c
+Corrigido o rotulo aula01
+@
+text
+@d10 1
+a10 1
+# $Date: 2017/03/18 19:04:21 $
+d12 6
+d31 1
+d34 2
+a35 1
+	aula0102
+d54 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 6
+a14 3
+# $Author$
+# $Date$
+# $Log$
+d19 1
+d22 1
+d24 5
+a28 1
+AULA01 = aula0101
+d38 1
+a38 2
+aula01: $(AULA0101OBJS)
+	$(LD) $(LFLAGS) -o $@@ $(AULA0101OBJS)
+d43 3
+d49 1
+a49 1
+#$RCSfile$
+@

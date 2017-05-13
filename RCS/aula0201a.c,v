@@ -1,0 +1,50 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.03.25.16.23.22;	author victor.oliveira;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/*
+* Universidade Federal do Rio de Janeiro
+* Escola Politecnica
+* Departamento de Eletronica e de Computacao
+* EEL270 - Computacao II - Turma 2017/1
+* Prof. Marcelo Luiz Drumond Lanza
+* Autor: Victor Raposo Ravaglia de Oliveira
+*
+* $Author$
+* $Date$
+* $Log$
+*
+*/
+
+#include "aula0201.h"
+
+ull
+CalcularMaximoDivisorComum (ull operadorX, ull operadorY)
+{
+	if (operadorX == 0) return operadorY;
+	if (operadorY == 0) return operadorX;
+	
+	if (operadorX % operadorY != 0) return (CalcularMaximoDivisorComum(operadorY, operadorX % operadorY));
+	return operadorY;	
+}	
+
+/*$RCSfile*/
+@
