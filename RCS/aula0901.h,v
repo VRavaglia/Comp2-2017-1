@@ -1,0 +1,85 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2017.05.13.14.10.11;	author victor.oliveira;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.05.12.00.41.55;	author victor.oliveira;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Adicionado suporte para funcao de decodificar.
+@
+text
+@/*
+* Universidade Federal do Rio de Janeiro
+* Escola Politecnica
+* Departamento de Eletronica e de Computacao
+* EEL270 - Computacao II - Turma 2017/1
+* Prof. Marcelo Luiz Drumond Lanza
+* Autor: Victor Raposo Ravaglia de Oliveira
+*
+* $Author: victor.oliveira $
+* $Date: 2017/05/12 00:41:55 $
+* $Log: aula0901.h,v $
+* Revision 1.1  2017/05/12 00:41:55  victor.oliveira
+* Initial revision
+*
+*
+* 
+*/
+
+#ifndef _AULA0901_H_
+#define _AULA0901_H_ "@@(#)aula0901.h $Revision: 1.1 $"
+
+#define CONJUNTO_BASE_64	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
+#define MAX_ENTRADA	768
+#define MAX_SAIDA	1051
+
+typedef enum{ok, argumentoInvalido, numeroArgumentosInvalidos, caractereEntradaInvalido, entradaPequena} tipoErros;
+typedef unsigned char byte;
+
+tipoErros
+CodificarBase64 (byte *entrada, unsigned numeroBytes, char *saida);
+
+tipoErros
+DecodificarBase64 (char *entrada, byte *saida, unsigned *numeroBytes);
+
+
+#endif
+
+
+/*$RCSfile: aula0901.h,v $*/
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d10 1
+a10 1
+* $Date: 2017/05/12 00:40:58 $
+d12 3
+d26 1
+a26 1
+typedef enum{ok, argumentoInvalido, numeroArgumentosInvalidos} tipoErros;
+d39 1
+a39 1
+/*$RCSfile$*/
+@
