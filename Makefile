@@ -7,8 +7,14 @@
 # Autor: Victor Raposo Ravaglia de Oliveira
 	
 # $Author: victor.oliveira $
-# $Date: 2017/05/13 14:10:11 $
+# $Date: 2017/05/19 01:03:16 $
 # $Log: Makefile,v $
+# Revision 1.36  2017/05/19 01:03:16  victor.oliveira
+# Adicionado suporte para aula1002
+#
+# Revision 1.35  2017/05/19 00:39:12  victor.oliveira
+# Adicionado suporte para aula1001
+#
 # Revision 1.34  2017/05/13 14:10:11  victor.oliveira
 # Adicionado suporte para aula0903
 #
@@ -171,6 +177,9 @@ AULA0806BOBJS = aula0804.o aula0806b.o
 AULA0902OBJS = aula0901.o aula0902.o
 AULA0903OBJS = aula0901.o aula0903.o
 
+AULA1001OBJS = aula1001.o
+AULA1002OBJS = aula1002.o
+
 LIBMATEMATICAOBJS = aula0401a.o
 
 AULA01 = aula0101\
@@ -216,6 +225,9 @@ AULA08 = aula0802a\
 AULA09 = aula0902\
 	aula0903
 
+AULA10 = aula1001\
+		 aula1002
+
 
 EXECS = $(AULA01)\
 	$(AULA02)\
@@ -225,7 +237,8 @@ EXECS = $(AULA01)\
 	$(AULA06)\
 	$(AULA07)\
 	$(AULA08)\
-	$(AULA09)
+	$(AULA09)\
+	$(AULA10)
 	
 
 LIBMATEMATICA = libmatematica.a
@@ -367,6 +380,15 @@ aula0902: $(AULA0902OBJS)
 
 aula0903: $(AULA0903OBJS)
 	$(LD) $(LFLAGS) -o $@ $(AULA0903OBJS)	
+
+
+aula10: $(AULA10)
+
+aula1001: $(AULA1001OBJS)
+	$(LD) $(LFLAGS) -o $@ $(AULA1001OBJS)
+
+aula1002: $(AULA1002OBJS)
+	$(LD) $(LFLAGS) -o $@ $(AULA1002OBJS)
 
 
 libmatematica.a: $(LIBMATEMATICAOBJS)
